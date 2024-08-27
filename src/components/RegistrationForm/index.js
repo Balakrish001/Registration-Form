@@ -44,7 +44,7 @@ class RegistrationForm extends Component {
           value={lastNameInput}
           placeholder="Last name"
           onChange={this.onChangeLastName}
-          onBlur={this.onBlurLastName}
+          onBlur={this.onBlurLastName}  // onblur attribute fires the moment that the element loses focus
         />
       </div>
     )
